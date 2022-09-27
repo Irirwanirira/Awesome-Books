@@ -1,0 +1,125 @@
+body {
+  padding: 0;
+}
+  
+#list {
+  border: 1px solid black;
+}
+
+.awesome {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.title {
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  height: 50px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  margin-left: 20px;
+}
+
+.ul-links {
+  list-style: none;
+  display: flex;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+li {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.ul-links li a:hover {
+  color: #4472e7;
+}
+
+#form {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.date {
+  float: right;
+}
+
+input {
+  width: 100%;
+}
+
+#btn {
+  float: right;
+}
+
+h2 {
+  text-align: center;
+}
+
+.availableBook {
+  display: flex;
+  justify-content: space-between;
+  gap: 8.5rem;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.availableBook:nth-child(even) {
+  background-color: #fff;
+}
+
+.availableBook:nth-child(odd) {
+  background-color: #eee;
+}
+
+hr {
+  width: 7rem;
+  margin-top: 20px;
+  height: 2px;
+  background-color: black;
+}
+
+button {
+  box-shadow: 2px 2px black;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-list li {
+  margin-top: 15px;
+}
+
+footer {
+  border: 2px solid;
+  background-color: #000;
+  color: #eaecee;
+  text-align: center;
+  margin-bottom: 3px;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+}
