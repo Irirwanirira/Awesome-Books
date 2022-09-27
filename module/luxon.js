@@ -1,4 +1,4 @@
-/*Eslint-disable*\
+/* eslint-disable *\
 // these aren't really private, but nor are they really useful to document
 
 /**
