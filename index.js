@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { DateTime } from "./module/luxon.js";
 
 const displaySection = document.querySelector('.list');
