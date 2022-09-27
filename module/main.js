@@ -4,7 +4,6 @@ const title = document.querySelector('#title');
 const author = document.querySelector('#author');
 const form = document.querySelector('#form');
 
-
 const Book = function objBook(title, author) {
   this.title = title;
   this.author = author;
@@ -33,7 +32,6 @@ form.addEventListener('input', () => {
   localForm.author = author.value;
 });
 
-
 addBook.addEventListener('click', (e) => {
   if (title.value === '' || author.value === '') {
     e.preventDefault();
@@ -45,7 +43,6 @@ addBook.addEventListener('click', (e) => {
   }
 });
 
-
 bookList.addEventListener('click', (eve) => {
   if (eve.target.classList.contains('delete')) {
     document.querySelector('.list').removeChild(eve.target.parentElement);
@@ -54,25 +51,3 @@ bookList.addEventListener('click', (eve) => {
     storedBooks.splice(storedBooks.indexOf(removeBook), 1);
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
