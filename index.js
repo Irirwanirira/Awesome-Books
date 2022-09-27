@@ -1,5 +1,5 @@
-import { DateTime } from "./module/luxon.js";
 
+import { DateTime } from "./module/luxon.js";
 
 const displaySection = document.querySelector('.list');
 const addBtn = document.getElementById('btn');
