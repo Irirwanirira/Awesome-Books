@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-- [Live Demo Link]().
+- [Live Demo Link](https://dreamy-kashata-838240.netlify.app).
 
 ## Getting Started
 
